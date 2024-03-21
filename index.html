@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- CSS Personalizzato -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md border-bottom fixed-top bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-play"></i> Music</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Album
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./album.html">Bob Dylan</a></li>
+                            <li><a class="dropdown-item" href="#Queen">Queen</a></li>
+                            <li><a class="dropdown-item" href="#Adams">Bryan Adams</a></li>
+                            <li><a class="dropdown-item" href="#Springsteen">Bruce Springsteen</a></li>
+                            <li><a class="dropdown-item" href="#Collins">Phil Collins</a></li>
+                            <li><a class="dropdown-item" href="#Estefan">Gloria Estefan</a></li>
+                            <li><a class="dropdown-item" href="#Shakira">Shakira</a></li>
+                            <li><a class="dropdown-item" href="#Mana">Manà</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatti</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Cerca</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner titolo -->
+    <div class="banner">
+        <h1>Benvenuto su <i class="fa-solid fa-play"></i> Music</h1>
+        <h3>La tua musica di sempre</h3>
+    </div>
+
+    <!-- Container -->
+    <div class="container content">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 1 -->
+                <div class="card" id="Dylan">
+                    <div class="img1"><img src="./assets/Album_Bob_Dylan.jpg" alt="Album Freewheelin Bob Dylan"></div>
+                    <div class="img2"><img src="./assets/Author_Bob_Dylan.jpeg" alt="Author Bob Dilan"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Freewheelin' Bob Dylan</h5>
+                        <p class="card-text">Bob Dylan</p>
+                        <p class="card-text">Folk Rock</p>
+                        <p class="card-text">49 minuti 30 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 2 -->
+                <div class="card" id="Queen">
+                    <div class="img1"><img src="./assets/Album_Queen.jpg" alt="Album Bohemian Rhapsody"></div>
+                    <div class="img2"><img src="./assets/Author_Freddy_Mercury.png" alt="Author Queen"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bohemian Rhapsody</h5>
+                        <p class="card-text">Queen</p>
+                        <p class="card-text">Rock</p>
+                        <p class="card-text">79 minuti 56 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 3 -->
+                <div class="card" id="Adams">
+                    <div class="img1"><img src="./assets/Album_Bryan_Adams.jpg" alt="Album So Far So Good"></div>
+                    <div class="img2"><img src="./assets/Author_Bryan_Adams.png" alt="Author Bryan Adams"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">So Far So Good</h5>
+                        <p class="card-text">Bryan Adams</p>
+                        <p class="card-text">Rock</p>
+                        <p class="card-text">62 minuti 45 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 4 -->
+                <div class="card" id="Springsteen">
+                    <div class="img1"><img src="./assets/Album_Bruce_Springsteen.jpg" alt="Album Born in the Usa"></div>
+                    <div class="img2"><img src="./assets/Author_Bruce_Springsteen.png" alt="Author Bruce Springsteen"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Born In The Usa</h5>
+                        <p class="card-text">Bruce Springsteen</p>
+                        <p class="card-text">Rock</p>
+                        <p class="card-text">46 minuti 57 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 5 -->
+                <div class="card" id="Collins">
+                    <div class="img1"><img src="./assets/Album_Both_Sides.jpg" alt="Album Both Sides"></div>
+                    <div class="img2"><img src="./assets/Author_Phil_Collins.png" alt="Author Phil Collins"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Both Sides</h5>
+                        <p class="card-text">Phil Collins</p>
+                        <p class="card-text">Rock</p>
+                        <p class="card-text">67 minuti 10 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 6 -->
+                <div class="card" id="Estefan">
+                    <div class="img1"><img src="./assets/Album_Abriendo_Puertas.jpg" alt="Album Abriendo Puertas"></div>
+                    <div class="img2"><img src="./assets/Author_Gloria_Estefan.png" alt="Author Gloria Estefan"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Abriendo Puertas</h5>
+                        <p class="card-text">Gloria Estefan</p>
+                        <p class="card-text">Pop/Rock</p>
+                        <p class="card-text">47 minuti 36 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 7 -->
+                <div class="card" id="Shakira">
+                    <div class="img1"><img src="./assets/Album_Shakira.jpg" alt="Album Sale el Sol"></div>
+                    <div class="img2"><img src="./assets/Author_Shakira.png" alt="Author Shakira"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sale el Sol</h5>
+                        <p class="card-text">Shakira</p>
+                        <p class="card-text">Pop</p>
+                        <p class="card-text">49 minuti 27 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3 mt-4">
+                <!-- Card Album n. 8 -->
+                <div class="card" id="Mana">
+                    <div class="img1"><img src="./assets/Album_Mana.jpg" alt="Album Suenos Liquidos"></div>
+                    <div class="img2"><img src="./assets/Author_Manà.png" alt="Author Manà"></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Suenos Liquidos</h5>
+                        <p class="card-text">Manà</p>
+                        <p class="card-text">Rock Latino</p>
+                        <p class="card-text">59 minuti 30 sec.</p>
+                        <div class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="info">
+            <div class="info-music">
+                <p><i class="fa-solid fa-play"></i> Music</p>
+                <p>La tua musica di sempre</p>
+            </div>
+            <div class="socials">
+                <!-- Link pulsanti social  -->
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Personale -->
+    <script src="./js/script.js"></script>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Script Fontawesome -->
+    <script src="https://kit.fontawesome.com/21c8470c2b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

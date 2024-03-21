@@ -1,0 +1,96 @@
+/* 
+    CSS Personalizzato global.css
+    by Gianluca Chiaravalloti
+    data: 21.03.2024
+*/
+
+/* Navbar */
+.navbar-brand {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.bg-doby {
+    border-bottom: 1px solid red;
+}
+
+.btn {
+    border: 1px solid darkcyan;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+/* --------------------------- end navbar */
+
+/* Banner, titolo e immagine */
+.banner {
+    height: 400px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(https://picsum.photos/id/39/1024/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 5px 10px rgb(220, 220, 220);
+}
+
+.banner h1 {
+    margin-top: 130px;
+    font-size: 3.0em;
+    color: darkcyan
+}
+
+.banner span {
+    color: #f4511e;
+    font-size: 1.5em;
+}
+
+.banner h3 {
+    color: #656c75
+}
+/* -------------------------- end banner, titolo e immagine */
+
+
+/* Comtent */
+.content {
+    margin-top: 20px;
+}
+
+
+
+/* Socials */
+.socials {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.socials i {
+    font-size: 20px;
+    color: darkcyan;
+    padding: 0 10px;
+}
+
+i:hover {
+    cursor: pointer;
+    color: #101010;
+}
+/* -------------------------- end socials */
+
+/* Footer */
+.info {
+    height: auto;
+    background-color: #5c5c5c;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.info-music {
+    padding: 25px;
+}
+
+.info-music p {
+    font-size: 1.2em;
+}
+/* -------------------------- end footer */

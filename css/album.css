@@ -1,0 +1,18 @@
+/* 
+    CSS Personalizzato album.css
+    by Gianluca Chiaravalloti
+    data: 21.03.2024
+*/
+
+/* Album */
+.card {
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.badge {
+    background-color: darkcyan;
+}
